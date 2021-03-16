@@ -1,0 +1,84 @@
+:root{
+    --primery-text-color:#212121;
+    --title-text-color:#757575;
+    --accept-color:#2196F3; 
+}
+
+.page {
+    background-color: #ffffff;
+    color: var(--primery-text-color);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* site-nav */
+
+
+.logo-accept {
+    color: var(--accept-color);
+}
+
+.logo {
+    color: var(--primery-text-color);
+}
+
+.logo-text {
+    font-family: Raleway;
+
+}
+
+ul {list-style: none;}
+
+.site-nav  .link {
+    color: var(--primery-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accept-color);
+}
+
+.contact-nav .link {
+    color: var(--title-text-color);
+}
+
+.contact-nav .link:hover, 
+.contact-nav .link:focus {
+    color: var(--accept-color);
+
+/* Hero */
+
+.hero-title {
+    color: var(--primery-text-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--primery-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--primery-text-color);
+}
+
+.section-team .title {
+    color: aqua;
+}
+
+.section-team .post {
+    color: #757575;
+}
+
+/* цвет основного текста #212121;
+ */
+
+ /* вторичный цвет текста #757575;
+ */
+
+ /* белый #ffffff */
+ 
+ /* цветовой акцент #2196F3 */
+
+ /* вторичный цвет фона #F5F4FA */
