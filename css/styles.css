@@ -25,7 +25,7 @@
   font-family: Raleway;
   letter-spacing: 0.03em;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 
 ul {
@@ -41,7 +41,7 @@ a {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -54,7 +54,7 @@ a {
   letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 
 .contact-nav .link:hover,
@@ -74,7 +74,7 @@ a {
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   text-align: center;
 }
 
@@ -82,6 +82,10 @@ a {
 .section-title {
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Features */
@@ -95,17 +99,40 @@ a {
   background-color: var(--accept-color);
   letter-spacing: 0.06em;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   text-align: center;
   font-weight: bold;
 }
 
 .title {
   letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .text {
   color: var(--title-text-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Staff */
+
+.staff-title {
+  font-weight: 500;
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.staff-text {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
@@ -133,6 +160,8 @@ a {
   color: var(--primery-text-color);
 }
 
+/* Footer */
+
 .footer {
   background-color: var(--accept-bg-color);
 }
@@ -140,11 +169,24 @@ a {
 .logo-whait {
   color: var(--primery-bg-color);
   letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .address {
   color: var(--primery-bg-color);
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--title-text-color);
 }
 /* цвет основного текста #212121;
  */
