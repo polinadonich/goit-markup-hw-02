@@ -136,10 +136,16 @@ a {
   letter-spacing: 0.03em;
 }
 
+/* Portfolio */
+
 .portfolio-nav .button {
   background-color: #f5f4fa;
   color: var(--primery-text-color);
   border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
 .portfolio-nav .button:hover,
@@ -158,6 +164,17 @@ a {
 
 .portfolio-title {
   color: var(--primery-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 /* Footer */
