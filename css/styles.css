@@ -49,6 +49,13 @@ a {
   color: var(--accept-color);
 }
 
+.link-is-active {
+  color: var(--accept-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .contact-nav .link {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
@@ -102,6 +109,7 @@ a {
   line-height: 1.87;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .title {
