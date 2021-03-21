@@ -24,15 +24,24 @@
 .logo-text {
   font-family: Raleway;
   letter-spacing: 0.03em;
+  font-size: 26px;
+  line-height: 1, 19;
 }
 
 ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .site-nav .link {
   color: var(--primery-text-color);
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
 }
 
 .site-nav .link:hover,
@@ -43,6 +52,9 @@ ul {
 .contact-nav .link {
   color: var(--title-text-color);
   letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
 }
 
 .contact-nav .link:hover,
@@ -54,11 +66,16 @@ ul {
 
 .hero {
   background-color: var(--accept-bg-color);
+  text-transform: uppercase;
 }
 
 .hero-title {
   color: var(--primery-bg-color);
   letter-spacing: 0.06em;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
 }
 
 /* Section */
@@ -77,6 +94,10 @@ ul {
   color: #ffffff;
   background-color: var(--accept-color);
   letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1, 87;
+  text-align: center;
+  font-weight: bold;
 }
 
 .title {
