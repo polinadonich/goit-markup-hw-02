@@ -7,7 +7,7 @@
 }
 
 .page {
-  background-color: var (--primery-bg-color);
+  background-color: var(--primery-bg-color);
   font-family: Roboto, sans-serif;
 }
 
