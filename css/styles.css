@@ -22,7 +22,7 @@
 }
 
 .logo-text {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-size: 26px;
   line-height: 1.19;
@@ -89,7 +89,7 @@ a {
 .section-title {
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -114,7 +114,7 @@ a {
 
 .title {
   letter-spacing: 0.03em;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -128,6 +128,10 @@ a {
 }
 
 /* Staff */
+
+.section-staff {
+  background-color: #f5f4fa;
+}
 
 .staff-title {
   font-weight: 500;
@@ -163,7 +167,7 @@ a {
 }
 
 .portfolio-box {
-  background: #ffffff;
+  background: var(--primery-bg-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   width: 370px;
@@ -172,7 +176,7 @@ a {
 
 .portfolio-title {
   color: var(--primery-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -200,7 +204,7 @@ a {
 
 .address {
   color: var(--primery-bg-color);
-  font-style: normal;
+  font-style: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -211,7 +215,7 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--title-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 /* цвет основного текста #212121;
  */
